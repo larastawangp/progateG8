@@ -41,7 +41,7 @@ header {
     line-height: 40px;
 }
 
-.header-right:hover {
+.header-right a:hover {
     background-color: rgba(168, 41, 151, 0.9);
 }
   
