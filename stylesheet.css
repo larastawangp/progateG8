@@ -1,0 +1,50 @@
+.header-right li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(136, 18, 106, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+  
+.logo {
+    width: 124px;
+    margin-top: 0px;
+}
+  
+.header-left {
+    float: left;
+}
+  
+.header-right {
+    float: right;
+    padding-right: 20px;
+    color: rgb(230, 204, 230);
+    background-color: rgba(112, 11, 58, 0.9);
+    transition: all 0.5s;
+    height: 80px;
+}
+
+.header-list ul li {
+    display:block;
+    float: left;
+    height: 100%;
+    margin-right: 20px;
+    line-height: 40px;
+}
+
+.header-right:hover {
+    background-color: rgba(168, 41, 151, 0.9);
+}
+  
+.header-right a {
+    color: white;
+}
